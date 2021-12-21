@@ -16,6 +16,12 @@ OS Version Parsing is not working properly yet.
 
 
 ## Usage
+First make the script executable.
+```bash
+  chmod 755 xml2url.py
+```
+
+Then, run.
 
 ```plaintext
 .\xml2url.py -h
