@@ -7,7 +7,7 @@ import sys
 def main():
     parser = argparse.ArgumentParser(description="NMAP XML PARSER TO CREATE URLS")
     parser.add_argument('-f','--xml_file', help="Nmap XML output.")
-    parser.add_argument('-o','--output', help="If you want to create an output, give the CSV filename.")
+    parser.add_argument('-o','--output', help="To create an output, give the CSV filename. [Requirered]")
     parser.add_argument('-n', '--no_headers', action='store_true', help='This flag removes the header from the CSV output File')
     parser.add_argument('-pI', '--print_ip', action='store_true', help='Print URLS with IP addresses.')
     parser.add_argument('-pH', '--print_hostname', action='store_true', help='Print URLS with hostnames.')
