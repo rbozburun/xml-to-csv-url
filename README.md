@@ -34,8 +34,8 @@ optional arguments:
   -f XML_FILE, --xml_file XML_FILE
                         Nmap XML output.
   -o OUTPUT, --output OUTPUT
-                        If you want to create an output, give the CSV
-                        filename.
+                        To create an output, give the CSV
+                        filename (Required).
   -n, --no_headers      This flag removes the header from the CSV output File
   -pI, --print_ip       Print URLS with IP addresses.
   -pH, --print_hostname
